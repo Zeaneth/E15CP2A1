@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     passwords: 'users/passwords',
     sessions: 'users/sessions'
   }
-  get 'histories/mines'
+  get 'histories/mines', to: 'histories#my_histories'
   resources :histories
  
   root "histories#index"
