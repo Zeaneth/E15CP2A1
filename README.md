@@ -76,7 +76,20 @@ Pictory es una aplicación para que diversos usuarios guarden sus historias y pu
 
 - Crear vista con las historias que le pertenecen al usuario.
 
-- Subir la aplicación funcionando a Herokul
+- Subir la aplicación funcionando a Heroku
+
+# Disclaimer
+> La subida a Heroku fue pospuesta debido a tener más de 5 proyectos ya corriendo en la plataforma.
+
+Los comandos serían los siguientes:
+
+> `Heroku add nombre app`
+
+> `Heroku push origin master` verificar el push exitoso.
+
+> `Heroku run rails db:migrate`
+
+> `Heroku open`
 
 ## Parte avanzada
 - Crear un panel de control de usuarios al que solo tendrán acceso los usuarios admin.
